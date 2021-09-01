@@ -94,6 +94,7 @@ Customization
 
 Most, if not all, of the main customization is located in the `user/autoexec.cfg` file, which is done by uncommenting (removing the two slashes) in front of a setting you wish to use, and then changing any values you deem fit. If you wish to edit a specific executable `.cfg` file, go right ahead, but this is generally for people who know what they are doing.
 
+However, to enable some scripts, namely ones that rebind keys, the `exec` command must be enabled in the individual class `.cfg`. For example, to enable the crouchjump script for sniper, you must uncomment `exec crouchjump` inside `cfg/user/sniper.cfg`. This also goes for the advanced scoreboard script.
 
 Help and support:
 -------
