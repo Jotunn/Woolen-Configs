@@ -107,5 +107,5 @@ This or simply sending me a ping over on Discord are the best ways to let me kno
 Special Thanks
 -------
 
-Thanks to: A Woolen Sleevelet for creating the class configs and gathering the other useful bits of this.
+Thanks to: A Woolen Sleevelet for creating the class configs and gathering the other useful bits of this. Also mastercoms for her immense contributions to the source engine modding community.
 
