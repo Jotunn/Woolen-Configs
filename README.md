@@ -1,3 +1,4 @@
+
 A Woolen Sleevelet's TF2 Config, updated by Jötunn
 ======
 
@@ -24,6 +25,15 @@ Tools used to edit these configs
 **Code Writing**
 
 GVIM Text Editor in Arch Linux w/KDE Plasma DE (Early 2017-) - Free - [Information and Download Here](https://www.vim.org/)
+
+What's Changed from the old scripts?
+-----------
+I have either removed or commented (Set the code to be ignored by the game) about half of the old `autoexec.cfg` as much of it was made redundant by MasterComfig. I left in the custom networking settings under comments for advanced or comp players to adjust to their specific liking. But, things like all of the flat mouse settings come as an addon for MasterComfig, and so having the extra set in the `autoexec.cfg` is again, redundant, and also makes the game take a little longer to load up. I changed the nullmove script from a combination of the nullmove and the crouchjump script to just being the crouchjump script, as like with the flat mouse settings, MasterComfig has a premade version of it all good to go. The same again for the included settings scripts by Comanglia. Comanglia's graphics settings scripts are specifically made into MasterComfig and with far more LODs to choose from. 
+
+What *hasn't* changed are any of the keybindings that Woolen made for each class. Right clicking as Scout still draws and fires the pistol, pressing the rear thumb button as sniper draws and uses your melee, front thumb button does the same with your secondary. All the same. What I did change was removing more redundant config code from the class configs that just ends up lengthening load times. 
+
+**If there is something I removed that you want me to add back, give me a poke on Discord and I will add it to a list for a future update to this repo.**
+
 
 Installing the configs
 -------
@@ -61,7 +71,7 @@ Copy+Paste the contents of `Woolen-Configs-main/cfg` folder into the above folde
 
 **If the above file path isn't exact to your distro, simply use the manage files menu option from within steam. The above example is the file path for most distros, as steam makes a folder link to the local data folder used by the distro within `/.steam/`**
 
-The final file setup should look like this:
+The final file structure should look like this:
 ```
 tf
 └── cfg
@@ -108,4 +118,5 @@ Special Thanks
 -------
 
 Thanks to: A Woolen Sleevelet for creating the class configs and gathering the other useful bits of this. Also mastercoms for her immense contributions to the source engine modding community.
+
 
