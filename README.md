@@ -11,11 +11,14 @@ Why yes, you are correct. I am not Woolen, I am Jötunn. But, I decided that aft
 [MasterComfig, the ultimate in general purpose TF2 config, and the recommended pairing with these.](https://mastercomfig.com/ "MasterComfig")
 
 [Yttrium's Viewmodels page w/downloadable installer](https://www.teamfortress.tv/34834/yttriums-competitive-viewmodels "Yttrium's Competitive Viewmodels")
+
 [Installation tutorial for Yttrium's Viewmodels by Woolen](https://www.youtube.com/watch?v=4phrSBGD1qA "# Yttrium's Competitive Viewmodels in 60 Seconds")
 
 [Woolen's Youtube Channel](www.youtube.com/user/TheBoy7477 "Woolen's Youtube link")
+
 [Woolen's Twitter](www.twitter.com/WoolenSleevelet "Woolen's Twitter link")
-[Woolen's Discord Server](www.discord.gg/8FNrdFR "Woolen's Discord server link")
+
+[Woolen's Discord Server](https://discord.gg/woolen "Woolen's Discord server link")
 
 [Jötunn's Discord Server (for more technical help)](https://discord.gg/NhnSysw "Jötunn's Discord server link")
 
@@ -24,7 +27,7 @@ Tools used to edit these configs
 -------
 **Code Writing**
 
-GVIM Text Editor in Arch Linux w/KDE Plasma DE (Early 2017-) - Free - [Information and Download Here](https://www.vim.org/)
+GVIM Text Editor in Arch Linux w/KDE Plasma DE - Free - [Information and Download Here](https://www.vim.org/)
 
 What's Changed from the old scripts?
 -----------
@@ -51,7 +54,11 @@ If you are not using MasterComfig, copy the contents of the `user` folder out of
 ***Windows***
 
 Navigate to:
-`Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/cfg`
+`C:/Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/cfg`
+
+Or if you have TF2 installed on a secondary drive
+
+`(Letter of your games drive)/SteamLibrary/SteamApps/common/Team Fortress 2/tf/cfg`
 
 Copy+Paste the contents of `Woolen-Configs-main/cfg` folder into the above folder
 
@@ -60,6 +67,10 @@ Copy+Paste the contents of `Woolen-Configs-main/cfg` folder into the above folde
 Navigate to:
 `(home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/cfg`
 
+Or
+
+`(Games drive)/SteamLibrary/SteamApps/common/Team Fortress 2/tf/cfg`
+
 Copy+Paste the contents of `Woolen-Configs-main/cfg` folder into the above folder
 
 ***Linux (Most distros)***
@@ -67,9 +78,13 @@ Copy+Paste the contents of `Woolen-Configs-main/cfg` folder into the above folde
 Navigate to
 `~/home/(home folder)/.steam/steam/steamapps/common/Team Fortress 2/tf/cfg`
 
+Or
+
+`(Games drive)/SteamLibrary/steamapps/common/Team Fortress 2/tf/cfg`
+
 Copy+Paste the contents of `Woolen-Configs-main/cfg` folder into the above folder
 
-**If the above file path isn't exact to your distro, simply use the manage files menu option from within steam. The above example is the file path for most distros, as steam makes a folder link to the local data folder used by the distro within `/.steam/`**
+**If the above file paths aren't exact to your distro, simply use the manage files menu option from within steam. The above example is the file path for most distros, as steam makes a folder link to the local data folder used by the distro within `(home folder)/.steam/`**
 
 The final file structure should look like this:
 ```
