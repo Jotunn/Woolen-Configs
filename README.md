@@ -54,6 +54,7 @@ If you are not using MasterComfig, copy the contents of the `user` folder out of
 ***Windows***
 
 Navigate to:
+
 `C:/Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/cfg`
 
 Or if you have TF2 installed on a secondary drive
@@ -65,6 +66,7 @@ Copy+Paste the contents of `Woolen-Configs-main/cfg` folder into the above folde
 ***Mac OS***
 
 Navigate to:
+
 `(home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/cfg`
 
 Or
@@ -76,6 +78,7 @@ Copy+Paste the contents of `Woolen-Configs-main/cfg` folder into the above folde
 ***Linux (Most distros)***
 
 Navigate to
+
 `~/home/(home folder)/.steam/steam/steamapps/common/Team Fortress 2/tf/cfg`
 
 Or
