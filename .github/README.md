@@ -35,11 +35,19 @@ I have either removed or commented (Set the code to be ignored by the game) abou
 
 What *hasn't* changed are any of the keybindings that Woolen made for each class. Right clicking as Scout still draws and fires the pistol, pressing the rear thumb button as sniper draws and uses your melee, front thumb button does the same with your secondary. All the same. What I did change was removing more redundant config code from the class configs that just ends up lengthening load times. 
 
+The other objective of this update was to bring it here, to GitHub. Pastebin was fine, but downloading the scripts directly is a bit tedious, and you can't have a nice informative readme on the front page like this one. Easier downloads, easier conveyance of instructions, links, and directions to support are all better here.
+
 **If there is something I removed that you want me to add back, give me a poke on Discord and I will add it to a list for a future update to this repo.**
 
 
 Installing the configs
 -------
+
+**TF2 Launch options**
+
+Go to your TF2 launch options and add these; change the number after refresh to whatever your monitor's refresh rate is:
+
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noborder -refresh 240`
 
 **Download**
 
@@ -69,7 +77,7 @@ Navigate to:
 
 `(home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/cfg`
 
-Or
+Or to:
 
 `(Games drive)/SteamLibrary/SteamApps/common/Team Fortress 2/tf/cfg`
 
@@ -81,7 +89,7 @@ Navigate to
 
 `~/home/(home folder)/.steam/steam/steamapps/common/Team Fortress 2/tf/cfg`
 
-Or
+Or to:
 
 `(Games drive)/SteamLibrary/steamapps/common/Team Fortress 2/tf/cfg`
 
